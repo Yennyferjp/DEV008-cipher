@@ -97,7 +97,7 @@ cubra los objetivos principales.
   - Elegir un numero de desplazamiento (_offset_) indicando cuántas
     posiciones quieres que el cifrado desplace cada caracter en el alfabeto.
     El numero sera positivo y entero (positive integer).
-  - Ver el resultado del mensaje cifrado.
+  - Ver el resultado del mensaje cifrado  .
 
 * **Descifrar un mensaje**
   - Insertar el mensaje (texto) que quieres descifrar. El mensaje usa alfabeto
