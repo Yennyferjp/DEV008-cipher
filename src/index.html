@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Cifrado César</title>
+  <title>CipherPrivate</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
@@ -38,7 +38,7 @@
     <textarea id="string" name="input" rows="5" cols="100" maxlength="200"
       placeholder="Escribe el texto a codificar aquí"></textarea>
     <label for="offset"> <strong class="title"> ¿Cuantos desplazamientos deseas correr?</strong></label>
-    <input type="number" id="offset" name="offset" min="0" max="26">
+    <input type="number" id="offset" name="offset" min="0" max="300">
 
     <center><button onclick="encode()">   Cifrar   </button>
       <button onclick="decode()">Descifrar</button>
@@ -48,6 +48,13 @@
     <br>
 
   </div>
+
+  <footer>
+    <div class="containerfooter">
+      <h6>Contacto: <a href="mailto:info@cipherprivate.com">info@cipherprivate.com</a></h6>
+      <h6>Derechos de autor © 2023 - Todos los derechos reservados</h6>
+    </div>
+  </footer>
 
 </body>
 <script src="index.js"></script>

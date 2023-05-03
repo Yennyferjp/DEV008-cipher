@@ -27,7 +27,7 @@ También se incluyen imágenes y un botón de descarga para hacer la experiencia
 
 ## 4. Proceso para la creación de la página web CipherPrivate 
 ### Planificación y diseño: 
-Se define la finalidad del sitio web, su estructura, el tipo de contenido y la experiencia de la usuaria. Se crea prototipos en lapiz y papel para  visualizar el diseño del sitio web definiendole la paleta de colores negro, rojo y blanco que es adecuada para una página web que busca transmitir un sentido de elegancia, exclusividad y el lujo, autoridad, urgencia e importancia, con un toque de emoción y energía. 
+Se define la finalidad del sitio web, su estructura, el tipo de contenido y la experiencia de la usuaria. Se crea prototipos en lapiz y papel para  visualizar el diseño del sitio web definiendole la paleta de colores negro, verde oscuro y blanco que es adecuada para una página web que busca transmitir un sentido de elegancia, exclusividad y el lujo, autoridad, seguridad y confianza. 
 
 ### Desarrollo: 
 Se empieza a codificar combinando diferentes lenguajes de programación, como HTML, CSS, JavaScript  para crear la estructura del sitio web, definir su estilo y crear la funcionalidad de cifrar y descifrar un mensaje utilizando el cifrado César. La usuaria introduce un mensaje y un número de desplazamiento (offset), que indica cuántas posiciones se deben desplazar las letras del alfabeto. La función encrypt() toma el mensaje y el desplazamiento y devuelve el mensaje cifrado. La función decrypt() toma el mensaje cifrado y el desplazamiento y devuelve el mensaje original.

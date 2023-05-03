@@ -1,79 +1,94 @@
 body {
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	background-color: #f8f8f8;
-	margin:0; padding: 0;
-    
+	margin: 0;
+	padding: 0;
+
 }
 
 h1 {
 	font-size: 50px;
 	margin-top: 20px;
-    color: white;
-    margin: auto 30%;
-    
+	color: white;
+	margin: auto 30%;
+
 }
 
-h3, .descarga   {
-    font-size: 20px;
-    color: white;
-    margin: 1% 30%;
+h3,
+.descarga {
+	font-size: 20px;
+	color: white;
+	margin: 1% 30%;
 }
 
 h4 {
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+
+h6 {
+	color: #f8f8f8;
+	text-align: center;
+	margin: 0%;
+}
+
 hr {
 	border-style: none;
 	border-top-style: dotted;
-	border-color: red;
+	border-color: grey;
 	border-width: 5px;
 	width: 5%;
-  
-  }
+
+}
+
 .msg {
-    font-size: 60px;
-    color: red;
+	font-size: 60px;
+	color: #37946B;
+	text-shadow: #CCC 0.5px 0 3px;
+	
+
 }
 
 .intro {
 	font-size: 30px;
-	color: red;
+	color: #347365;
+	text-shadow: black 0.5px 0 2px;
 }
 
 
 
-.phone{
-    width: 20%;
-    position: absolute;
-    margin: -15% 5%;
-    
-    
+.phone {
+	width: 20%;
+	position: absolute;
+	margin: -15% 5%;
+
+
 }
-.container1 {
-	
+
+.container1,
+.containerfooter {
+
 	padding: 20px;
 	background-color: black;
-   
-	
+
+
 }
 
-.container2{
-    padding: 20px; 
-    margin: 1% 30%;
+.container2 {
+	padding: 20px;
+	margin: 1% 30%;
 }
 
 p {
-    color: #f8f8f8;
-    margin: auto 30%;
-    
+	color: #f8f8f8;
+	margin: auto 30%;
+
 }
 
 .parrafo2 {
-    color: black;
-    margin: 1% 0 6%;
+	color: black;
+	margin: 1% 0 6%;
 }
 
 label {
@@ -91,7 +106,7 @@ textarea {
 
 button {
 	padding: 10px;
-	background-color: black;
+	background-color: #37946B;
 	color: #fff;
 	border: none;
 	border-radius: 5px;
@@ -101,10 +116,10 @@ button {
 }
 
 button:hover {
-	background-color: #800000;
+	background-color: black;
 }
 
 .title {
 	font-size: 120%;
-	
+
 }
