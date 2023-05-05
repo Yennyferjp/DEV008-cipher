@@ -5,15 +5,16 @@ const cipher = {
     offset %= 26;
     const alfabeto = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     // Rotamos el alfabeto [offset] lugares a la derecha
-    let cifrado = alfabeto.slice(+offset);
-    cifrado = cifrado + alfabeto.slice(0, offset);
+    let cifrado = alfabeto.slice(+offset); //porcion del alfabeto 
+    cifrado = cifrado + alfabeto.slice(0, offset); // suma la  porcion restante
     // Coge la letra del cifrado según la posición de cada letra en alfabeto
-    for (let i = 0; i < string.length; i++) {
-      letra = string[i];
+     for (let i = 0; i < string.length; i++) {
+      letra = string[i]; 
       if (letra === ' ') {
         letra = ' ';
       } else {
-        letra = cifrado[alfabeto.indexOf(letra)] || letra;
+        let indiceOriginal = alfabeto.indexOf(letra);
+        letra = cifrado[indiceOriginal] || letra;
       }
       respuesta += letra;
     }
@@ -43,8 +44,7 @@ const cipher = {
 
 };
 
-
-
+// INVOCO
 function encode () {
   const string = document.getElementById("string").value;
   const offset = parseInt(document.getElementById("offset").value);
